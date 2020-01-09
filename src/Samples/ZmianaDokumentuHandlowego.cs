@@ -35,6 +35,7 @@ namespace Samples
            
             pos.Towar =  dokument.Session.GetTowary().Towary.WgKodu["TRANSPORT"];
             pos.Rabat = new Percent(rabat);
+            /*komentarz*/
         }
 
 #region Niezaimplementowane metody
